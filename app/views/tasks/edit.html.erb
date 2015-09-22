@@ -1,6 +1,6 @@
-<h1>Editing task</h1>
+<h1 class= "text-center">Editing task</h1>
 
 <%= render 'form' %>
 
-<%= link_to 'Show', @task %> |
-<%= link_to 'Back', tasks_path %>
+<%= link_to "<i class='fa fa-eye'></i>Show".html_safe, @task %> |
+<%= link_to "<i class='fa fa-chevron-circle-left'></i> Back".html_safe, tasks_path %>

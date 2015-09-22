@@ -10,5 +10,5 @@
   <%= @task.state %>
 </p>
 
-<%= link_to 'Edit', edit_task_path(@task) %> |
-<%= link_to 'Back', tasks_path %>
+<%= link_to "<i class='fa fa-pencil'></i> Edit".html_safe, edit_task_path(@task) %> |
+<%= link_to "<i class='fa fa-chevron-circle-left'></i> Back".html_safe, tasks_path %>
