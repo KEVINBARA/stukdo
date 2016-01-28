@@ -49,3 +49,6 @@ gem 'font-awesome-rails'
 
 # gem for devise
  gem 'devise'
+
+# gem for link detection
+ gem "auto_html"
